@@ -1,0 +1,5 @@
+<?php if ($this->article_teaser_image): ?>
+    <figure>
+        <img src="<?= \Contao\FilesModel::findByUuid($this->article_teaser_image)->path ?>" alt="<?= $this->headline ?>">
+    </figure>
+<?php endif; ?>
