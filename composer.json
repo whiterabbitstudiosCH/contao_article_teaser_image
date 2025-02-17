@@ -1,25 +1,24 @@
 {
-    "name": "whiterabbitstudiosch/contao-article-teaser-image",
-    "description": "Adds a teaser image field to articles in Contao CMS",
-    "type": "contao-bundle",
-    "license": "MIT",
-    "authors": [
-      {
-        "name": "White Rabbit Studios",
-        "email": "mail@whiterabbitstudios.ch"
-      }
-    ],
-    "require": {
-      "php": "^7.4 || ^8.0",
-      "contao/core-bundle": "^4.13"
-    },
-    "autoload": {
-      "psr-4": {
-        "WhiteRabbitStudios\\ContaoArticleTeaserImage\\": "src/"
-      }
-    },
-    "extra": {
-      "contao-manager-plugin": "WhiteRabbitStudios\\ContaoArticleTeaserImage\\ContaoManager\\Plugin"
+  "name": "whiterabbitstudios/contao-article-teaser-image",
+  "description": "Adds a teaser image field to articles in Contao CMS",
+  "type": "contao-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "White Rabbit Studios",
+      "email": "mail@whiterabbitstudios.ch"
     }
+  ],
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "contao/core-bundle": "^4.13"
+  },
+  "autoload": {
+    "psr-4": {
+      "WhiteRabbitStudios\\ContaoArticleTeaserImage\\": "src/"
+    }
+  },
+  "extra": {
+    "contao-manager-plugin": "WhiteRabbitStudios\\ContaoArticleTeaserImage\\ContaoManager\\Plugin"
   }
-  
+}
