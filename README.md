@@ -1,0 +1,1 @@
+# Contao Article Teaser Image
