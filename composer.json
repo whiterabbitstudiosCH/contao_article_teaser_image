@@ -19,6 +19,7 @@
     }
   },
   "extra": {
-    "contao-manager-plugin": "WhiteRabbitStudios\\ContaoArticleTeaserImage\\ContaoManager\\Plugin"
+    "contao-manager-plugin": "WhiteRabbitStudios\\ContaoArticleTeaserImage\\ContaoManager\\Plugin",
+    "image": "https://github.com/whiterabbitstudiosCH.png"
   }
 }
