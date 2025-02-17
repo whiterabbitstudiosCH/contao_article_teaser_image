@@ -1,5 +1,5 @@
 {
-  "name": "whiterabbitstudios/contao-article-teaser-image",
+  "name": "whiterabbitstudiosch/contao-article-teaser-image",
   "description": "Adds a teaser image field to articles in Contao CMS",
   "type": "contao-bundle",
   "license": "MIT",
