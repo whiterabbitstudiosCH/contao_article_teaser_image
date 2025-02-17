@@ -17,5 +17,6 @@ $GLOBALS['TL_DCA']['tl_article']['fields']['article_teaser_image'] = [
 
 // Feld in die Palette einfügen
 Contao\CoreBundle\DataContainer\PaletteManipulator::create()
-    ->addField('article_teaser_image', 'teaser_legend', Contao\CoreBundle\DataContainer\PaletteManipulator::POSITION_APPEND)
+    ->addLegend('teaser_image_legend', 'teaser_legend', Contao\CoreBundle\DataContainer\PaletteManipulator::POSITION_AFTER)
+    ->addField('article_teaser_image', 'teaser_image_legend', Contao\CoreBundle\DataContainer\PaletteManipulator::POSITION_APPEND)
     ->applyToPalette('default', 'tl_article');
